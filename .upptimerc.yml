@@ -1,31 +1,51 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Illumination Lab status page. Only owner-controlled sites: no client sites, no admin hosts (this repo is public).
+owner: illuminationlab
+repo: status
+
+assignees:
+  - illuminationlabio
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Illumination Lab
+    url: https://illuminationlab.io
+  - name: Lead intake
+    url: https://intake.illuminationlab.io/ready
+  - name: Chief Automation Experts
+    url: https://chiefautomationexperts.com
+  - name: CallAndCrawl
+    url: https://callandcrawl.com
+  - name: EngineGuild
+    url: https://engineguild.com
+  - name: FullTeeSheet
+    url: https://fullteesheet.com
+  - name: GarageCowboys
+    url: https://garagecowboys.com
+  - name: KeptBlue
+    url: https://keptblue.com
+  - name: LashBooked
+    url: https://lashbooked.com
+  - name: LimoBooked
+    url: https://limobooked.com
+  - name: NeedleMoved
+    url: https://needlemoved.com
+  - name: PristineCircuit
+    url: https://pristinecircuit.com
+  - name: Rafter Elite
+    url: https://rafterelite.com
+  - name: WattsBooked
+    url: https://wattsbooked.com
+  - name: WellnessEpicenter
+    url: https://wellnessepicenter.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # No custom domain yet: served from https://illuminationlab.github.io/status
+  baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Illumination Lab Status
+  introTitle: "**Illumination Lab** service status"
+  introMessage: Uptime for our sites and lead intake, checked every few minutes.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
