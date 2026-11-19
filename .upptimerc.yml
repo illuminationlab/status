@@ -10,6 +10,8 @@ sites:
     url: https://illuminationlab.io
   - name: Lead intake
     url: https://intake.illuminationlab.io/ready
+  - name: Illumination Lab Payments
+    url: https://pay.illuminationlab.io/health
   - name: CallAndCrawl
     url: https://callandcrawl.com
   - name: EngineGuild
